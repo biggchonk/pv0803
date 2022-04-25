@@ -4,6 +4,7 @@ import base64
 import subprocess
 import flask
 
+
 # Input injection
 def transcode_file(filename):
     command = 'ffmpeg -i "{source}" output_file.mpg'.format(source=filename)
